@@ -1,0 +1,31 @@
+---
+title: "About 3D Print Pipes"
+type: "page"
+layout: "about"
+description: "The team behind 3dprintpipes.com — fluid system engineers and additive manufacturing specialists in complex flow geometry fabrication."
+storyTitle: "Flow Without Compromise"
+storyText:
+  - "3D Print Pipes is the authoritative resource for additive manufacturing in pipe, duct, and fluid system applications — covering the technology, materials, and engineering practice behind printed flow components."
+  - "We cover the full range of flow geometry AM: SLM stainless hydraulic manifolds, SLS nylon air handling components, PEEK chemical process fittings, and titanium aerospace ducting."
+  - "Our editorial team includes fluid system engineers, mechanical designers, and AM process specialists who understand the difference between a flow manifold that looks right in CAD and one that passes a hydrostatic test."
+storyImage: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80"
+missionCards:
+  - icon: "🔧"
+    title: "Engineering First"
+    text: "We cover pipe printing from the engineering requirement — pressure rating, temperature, media compatibility, connection standard — not just the print process."
+  - icon: "⚙️"
+    title: "Materials Depth"
+    text: "316L SLM for hydraulics. Carbon PA12 for corrosion resistance. PEEK for chemical process. Inconel for elevated temperature. We match the material to the duty."
+  - icon: "📐"
+    title: "Design for AM"
+    text: "Internal flow optimisation, lattice-reinforced walls, integrated sensor ports, and consolidation of welded assemblies into single printed parts — this is where AM wins."
+values:
+  - title: "Technical Accuracy"
+    text: "Written by engineers who understand pressure ratings."
+  - title: "Process Coverage"
+    text: "SLM, SLS, FDM, and binder jet — all covered."
+  - title: "Industry Range"
+    text: "Oil & gas to HVAC. Aerospace to marine."
+  - title: "Independence"
+    text: "Editorial coverage independent of machine vendor marketing."
+---

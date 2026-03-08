@@ -1,0 +1,214 @@
+baseURL = "https://3dprintpipes.com/"
+languageCode = "en-us"
+title = "3D Print Pipes"
+theme = "printwire"
+
+[params]
+tagline       = "Complex Flow Geometry — Without the Machining."
+description   = "3D Print Pipes — custom pipe fittings, flow manifolds, and duct assemblies via additive manufacturing. Complex internal geometry, non-standard branch angles, and integrated sensor ports without welding or machining."
+keywords      = "3D printed pipes, additive manufacturing pipe fittings, custom flow manifolds, 3D printed duct, SLM pipe fittings, nylon pipe, complex flow geometry, non-standard fittings, hydraulic manifold printing"
+logoEmoji     = "🔧"
+contactEmail  = "maxdavisgroup@gmail.com"
+ogImage       = "https://images.unsplash.com/photo-1770819372115-dafe72a8c8b5?w=1200&q=80"
+footerServicesLabel = "Services"
+
+colorPrimary      = "#f97316"
+colorPrimaryDark  = "#ea6c0a"
+colorPrimaryLight = "#fb923c"
+colorBgDark       = "#0a0806"
+colorBgSection    = "#0e0c09"
+colorBgCard       = "#161109"
+colorBgCardHover  = "#1e1810"
+colorBorder       = "rgba(249,115,22,0.20)"
+colorBorderLight  = "rgba(249,115,22,0.09)"
+
+fontPrimary   = "Orbitron"
+fontSecondary = "Space+Grotesk"
+
+pubmedQuery        = "additive+manufacturing+pipe+flow+manifold+3D+printing+industrial"
+pubmedFallback     = "additive+manufacturing+pipe+fitting+fluid+flow"
+newsFallbackImages = [
+  "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=600&q=80",
+  "https://images.unsplash.com/photo-1565022536102-f7645c84354a?w=600&q=80",
+  "https://images.unsplash.com/photo-1535813547-99c456a41d4a?w=600&q=80",
+]
+
+heroEyebrow  = "Flow Geometry Additive Manufacturing"
+heroTitle    = "3D Print <em>Pipe</em>"
+heroSubtitle = "Custom pipe fittings, flow manifolds, and duct assemblies via additive manufacturing. Complex internal geometry, non-standard branch angles, and integrated sensor ports — without welding, machining, or stock-size constraints."
+heroCta1Text = "Explore Services"
+heroCta1URL  = "/services/"
+heroCta2Text = "Get a Quote"
+heroCta2URL  = "/contact/"
+heroImage    = "https://images.unsplash.com/photo-1770819372115-dafe72a8c8b5?w=1200&q=80"
+
+newsSectionTitle    = "Latest in Additive Manufacturing for Flow Systems"
+newsSectionSubtitle = "Research and industry news covering 3D printed pipes, manifolds, and fluid system components across oil & gas, aerospace, and HVAC."
+
+overviewLabel   = "Materials"
+overviewTitle   = "Pipe & Fitting Materials"
+overviewText    = "Pressure-rated 316L stainless via SLM for hydraulic and high-temperature applications. Carbon-filled PA12 for corrosion-resistant fluid handling. PEEK for chemical process systems."
+overviewText2   = "Any schedule wall thickness. Non-standard ID/OD combinations. Integrated flanges, sensor ports, and inspection access points — all in the same print, no secondary operations."
+overviewImage   = "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80"
+overviewBtnText = "View Services"
+overviewBtnURL  = "/services/"
+
+applicationsLabel = "Industries"
+applicationsTitle = "Where 3D Printed Pipe Excels"
+
+servicesLabel    = "What We Offer"
+servicesTitle    = "Pipe & Duct Printing Services"
+servicesSubtitle = "From a single non-standard elbow to a full hydraulic manifold block — additive manufacturing for every flow geometry challenge."
+
+clusterLabel = "PrintWire Network"
+clusterTitle = "Related 3D Printing Resources"
+
+newsletterTitle = "Industrial AM Updates"
+newsletterText  = "Pipe printing technology, material developments, and industrial AM case studies — delivered monthly."
+
+ctaTitle   = "Print Your Flow Problem Away"
+ctaText    = "Non-standard size? Awkward branch angle? Sensor ports mid-run? If it carries fluid or gas, we can print it — to pressure rating and tolerance."
+ctaImage   = "https://images.unsplash.com/photo-1581093806997-124204d9fa9d?w=1200&q=80"
+ctaBtnText = "Get a Quote"
+ctaBtnURL  = "/contact/"
+
+# ── Array tables ──────────────────────────────────────────────────────
+
+[[params.stats]]
+count  = 2
+suffix = "mm"
+label  = "ID/OD Tolerance (±0.)"
+
+[[params.stats]]
+count  = 300
+suffix = "°C"
+label  = "Max Operating Temp"
+
+[[params.stats]]
+count  = 200
+suffix = " bar"
+label  = "Pressure Rating"
+
+[[params.stats]]
+count  = 5
+suffix = "B+"
+label  = "Market by 2030 (USD)"
+
+[[params.applications]]
+title       = "Oil, Gas & Hydraulics"
+description = "Pressure-rated 316L manifolds, custom hydraulic block replacements, and subsea fitting assemblies with integrated O-ring grooves and port threads."
+image       = "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&q=80"
+
+[[params.applications]]
+title       = "Aerospace & Defence"
+description = "Lightweight titanium and Inconel ducting for propulsion, bleed air, and fuel systems. Topology-optimised brackets and support structures integrated into the pipe assembly."
+image       = "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80"
+
+[[params.applications]]
+title       = "HVAC & Building Services"
+description = "Custom duct branches, acoustic baffles, and diffuser geometries for commercial and industrial HVAC. Noise-attenuating splitter forms impossible to fabricate in sheet metal."
+image       = "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80"
+
+[[params.applications]]
+title       = "Marine & Offshore"
+description = "Corrosion-resistant pipe fittings and manifolds for seawater systems, ballast, and cooling circuits. Complex branching without welding for reduced leak-point count."
+image       = "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80"
+
+[[params.servicesPreview]]
+icon        = "🔧"
+title       = "Complex Flow Manifolds"
+description = "Multi-port manifolds with optimised internal flow geometry. Smooth radius transitions that machined block manifolds cannot achieve."
+
+[[params.servicesPreview]]
+icon        = "⚙️"
+title       = "Non-Standard Fittings"
+description = "Custom elbow angles, reducers, and tee branches not in standard pipe schedules. Any off-axis branch angle, any wall thickness."
+
+[[params.servicesPreview]]
+icon        = "💨"
+title       = "Duct & HVAC Components"
+description = "Custom duct branches, diffusers, and noise-attenuating baffles for aircraft and building mechanical systems."
+
+[[params.servicesPreview]]
+icon        = "📡"
+title       = "Sensor-Integrated Pipework"
+description = "Pressure taps, thermowell bosses, and flow meter ports built into the fitting. Eliminate secondary machining and welded-in bosses."
+
+[[params.services]]
+name        = "Complex Flow Manifolds"
+description = "Multi-port manifolds with optimised internal flow geometry and smooth radius transitions. SLM stainless for pressure, SLS nylon for air and low-pressure fluid."
+icon        = "🔧"
+image       = "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80"
+
+[[params.services]]
+name        = "Non-Standard Fittings"
+description = "Custom elbow angles, reducers, and tee branches outside standard pipe schedules. Off-axis branching, oval-to-round transitions, integrated mounting flanges."
+icon        = "⚙️"
+image       = "https://images.unsplash.com/photo-1763238273638-3264cf27298a?w=800&q=80"
+
+[[params.services]]
+name        = "Duct & HVAC Components"
+description = "Custom HVAC duct branches, diffusers, and acoustically optimised baffles for aircraft and building mechanical systems."
+icon        = "💨"
+image       = "https://images.unsplash.com/photo-1694556586896-32ed1e022468?w=800&q=80"
+
+[[params.services]]
+name        = "Sensor-Integrated Pipework"
+description = "Pressure taps, thermowell bosses, and flow meter ports printed directly into the fitting. No secondary machining, no welded bosses, no additional leak paths."
+icon        = "📡"
+image       = "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80"
+
+[[params.clusterLinks]]
+name        = "dmls3d.com"
+url         = "https://dmls3d.com"
+description = "Metal 3D printing & DMLS"
+
+[[params.clusterLinks]]
+name        = "metalpowder.co"
+url         = "https://metalpowder.co"
+description = "Metal powder for AM"
+
+[[params.clusterLinks]]
+name        = "3dprinttitanium.com"
+url         = "https://3dprinttitanium.com"
+description = "Titanium additive manufacturing"
+
+[[params.clusterLinks]]
+name        = "3dprintarchitecture.com"
+url         = "https://3dprintarchitecture.com"
+description = "Architectural & structural AM"
+
+[[params.clusterLinks]]
+name        = "sendcutship.com"
+url         = "https://sendcutship.com"
+description = "Custom manufacturing services"
+
+[[menu.main]]
+name   = "Home"
+url    = "/"
+weight = 1
+
+[[menu.main]]
+name   = "About"
+url    = "/about/"
+weight = 2
+
+[[menu.main]]
+name   = "Articles"
+url    = "/articles/"
+weight = 3
+
+[[menu.main]]
+name   = "Services"
+url    = "/services/"
+weight = 4
+
+[[menu.main]]
+name   = "Contact"
+url    = "/contact/"
+weight = 5
+
+[[menu.main]]
+name   = "Advertise"
+url    = "/advertise/"
+weight = 6

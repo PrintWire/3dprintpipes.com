@@ -1,0 +1,22 @@
+---
+title: "Pipe & Duct Printing Services"
+type: "page"
+layout: "services"
+description: "Additive manufacturing for flow systems — complex manifolds, custom fittings, duct components, and sensor-integrated pipework."
+process:
+  - step: "01"
+    title: "Engineering Review"
+    text: "We review your pressure, temperature, and media requirements. Process selection (SLM, SLS, FDM, binder jet) and material recommendation matched to duty cycle and regulatory requirements."
+  - step: "02"
+    title: "CAD & Flow Optimisation"
+    text: "Internal geometry optimisation for pressure drop, flow uniformity, and structural integrity. DfAM review to consolidate assemblies and eliminate machined secondary operations."
+  - step: "03"
+    title: "Print Production"
+    text: "SLM for metallic pressure components. SLS or MJF for polymer fluid handling. Build parameters tuned for wall density, surface finish, and dimensional accuracy on critical ID/OD features."
+  - step: "04"
+    title: "Post-Process & Test"
+    text: "Internal channel depowdering and cleaning. Heat treatment for SLM parts. Hydrostatic or pneumatic pressure test to rated working pressure × safety factor."
+  - step: "05"
+    title: "Thread & Connection Prep"
+    text: "NPT, BSP, and metric thread machining as required. Flange face machining to sealing standard. Pressure test certification documentation provided."
+---
