@@ -1,9 +1,17 @@
 baseURL = "https://3dprintpipes.com/"
 languageCode = "en-us"
 title = "3D Print Pipes"
-theme = "printwire"
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
+siteName      = "3D Print Pipes"
 tagline       = "Complex Flow Geometry — Without the Machining."
 description   = "3D Print Pipes — custom pipe fittings, flow manifolds, and duct assemblies via additive manufacturing. Complex internal geometry, non-standard branch angles, and integrated sensor ports without welding or machining."
 keywords      = "3D printed pipes, additive manufacturing pipe fittings, custom flow manifolds, 3D printed duct, SLM pipe fittings, nylon pipe, complex flow geometry, non-standard fittings, hydraulic manifold printing"
