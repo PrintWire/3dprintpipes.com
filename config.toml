@@ -18,7 +18,7 @@ description   = "3D Print Pipes — custom pipe fittings, flow manifolds, and du
 keywords      = "3D printed pipes, additive manufacturing pipe fittings, custom flow manifolds, 3D printed duct, SLM pipe fittings, nylon pipe, complex flow geometry, non-standard fittings, hydraulic manifold printing"
 logoEmoji     = "🔧"
 contactEmail  = "maxdavisgroup@gmail.com"
-ogImage       = "https://images.unsplash.com/photo-1770819372115-dafe72a8c8b5?w=1200&q=80"
+ogImage       = "/images/05_facade_gradient.png"
 footerServicesLabel = "Services"
 
 colorPrimary      = "#f97316"
