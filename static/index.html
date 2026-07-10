@@ -13,10 +13,10 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="3D Print Pipes — Industrial &amp; Construction AM News &amp; Suppliers">
   <meta property="og:description" content="3D Print Pipes: construction and architectural additive manufacturing news, robotic concrete printing, facade panels, and a directory connecting builders to suppliers.">
-  <meta property="og:image" content="https://3dprintpipes.com/images/05_facade_gradient.png">
+  <meta property="og:image" content="https://3dprintpipes.com/images/01_hero_large_diameter.png">
   <meta property="og:url" content="https://3dprintpipes.com/">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://3dprintpipes.com/images/05_facade_gradient.png">
+  <meta name="twitter:image" content="https://3dprintpipes.com/images/01_hero_large_diameter.png">
 </head>
 <body>
 
@@ -49,20 +49,15 @@
   <div class="ed-main">
 
     <!-- Featured Story -->
-    <article class="ed-hero">
-      <img src="images/05_facade_gradient.png" alt="Large-format robotic 3D printing on a construction site">
-      <div class="ed-hero-overlay"></div>
-      <div class="ed-hero-content">
-        <span class="ed-badge">Infrastructure</span>
-        <h1><a href="#">Multi-Meter Robotic 3D Printing Is Reshaping How We Build</a></h1>
-        <div class="ed-hero-meta">
-          <span>June 30, 2026</span>
-          <span>·</span>
-          <span>7 min read</span>
-          <span>·</span>
-          <span>By PrintWire Editorial</span>
-        </div>
-        <p class="ed-hero-excerpt">Large-format robotic and gantry systems are depositing structural material at scales conventional methods can't match — from pipe yards to bridge spans and full building elements.</p>
+    <article class="ed-hero-split">
+      <div class="ed-hero-split-text">
+        <span class="ed-badge">Infrastructure & Civil</span>
+        <h1>3D-Printed Pipes, Utilities &amp; <span class="ed-logo-accent">Civil Works</span></h1>
+        <p class="ed-hero-excerpt">From printed drainage and pipe networks to bridges and utility structures, additive manufacturing brings site-specific civil infrastructure to the field.</p>
+        <a href="/articles/" class="ed-hero-cta">Explore Civil AM &rarr;</a>
+      </div>
+      <div class="ed-hero-visual">
+        <img src="images/01_hero_large_diameter.png" alt="Infrastructure & Civil">
       </div>
     </article>
 
@@ -111,7 +106,7 @@
     </div>
     <div class="ed-list">
       <article class="ed-list-item">
-        <img src="images/07_scale_section.png" alt="Printed concrete wall section">
+        <img src="images/02_pipe_fitting.png" alt="Printed concrete wall section">
         <div>
           <span class="ed-badge">Construction</span>
           <div class="ed-card-meta">June 24, 2026 · 8 min read</div>
@@ -120,7 +115,7 @@
         </div>
       </article>
       <article class="ed-list-item">
-        <img src="images/11_staircase.png" alt="Parametric facade panel">
+        <img src="images/03_drainage_channel.png" alt="Parametric facade panel">
         <div>
           <span class="ed-badge">Facades</span>
           <div class="ed-card-meta">June 20, 2026 · 7 min read</div>
@@ -129,7 +124,7 @@
         </div>
       </article>
       <article class="ed-list-item">
-        <img src="images/12_foundation.png" alt="Reinforced printed foundation">
+        <img src="images/04_pipe_flange.png" alt="Reinforced printed foundation">
         <div>
           <span class="ed-badge">Structural</span>
           <div class="ed-card-meta">June 18, 2026 · 10 min read</div>
@@ -145,27 +140,27 @@
     </div>
     <div class="ed-card-grid" style="grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 2.5rem;">
       <a href="#" class="ed-card" style="text-align:center;">
-        <img class="ed-card-img" src="images/08_site_integration.png" alt="Residential">
+        <img class="ed-card-img" src="images/05_pipeline_valve.png" alt="Residential">
         <div class="ed-card-body"><h3>Residential</h3></div>
       </a>
       <a href="#" class="ed-card" style="text-align:center;">
-        <img class="ed-card-img" src="images/09_column_lattice.png" alt="Commercial">
+        <img class="ed-card-img" src="images/06_pipe_repair.png" alt="Commercial">
         <div class="ed-card-body"><h3>Commercial</h3></div>
       </a>
       <a href="#" class="ed-card" style="text-align:center;">
-        <img class="ed-card-img" src="images/10_modular_system.png" alt="Civic & Cultural">
+        <img class="ed-card-img" src="images/07_utility_conduit.png" alt="Civic & Cultural">
         <div class="ed-card-body"><h3>Civic &amp; Cultural</h3></div>
       </a>
       <a href="#" class="ed-card" style="text-align:center;">
-        <img class="ed-card-img" src="images/13_window_frame.png" alt="Infrastructure">
+        <img class="ed-card-img" src="images/08_water_network.png" alt="Infrastructure">
         <div class="ed-card-body"><h3>Infrastructure</h3></div>
       </a>
       <a href="#" class="ed-card" style="text-align:center;">
-        <img class="ed-card-img" src="images/14_ornament_detail.png" alt="Interiors">
+        
         <div class="ed-card-body"><h3>Interiors</h3></div>
       </a>
       <a href="#" class="ed-card" style="text-align:center;">
-        <img class="ed-card-img" src="images/03_wall_panels.png" alt="Landscape">
+        
         <div class="ed-card-body"><h3>Landscape</h3></div>
       </a>
     </div>
@@ -349,7 +344,7 @@ document.querySelector('.ed-nav-toggle')?.addEventListener('click', () => {
     btn.title = theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
   }
   const saved = localStorage.getItem('ed-theme');
-  setTheme(saved || 'dark');
+  setTheme(saved || 'light');
   btn.addEventListener('click', () => {
     const current = root.getAttribute('data-theme') || 'dark';
     setTheme(current === 'dark' ? 'light' : 'dark');
