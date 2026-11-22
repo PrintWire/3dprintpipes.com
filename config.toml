@@ -14,7 +14,7 @@ title = "3D Print Pipes"
 siteName      = "3D Print Pipes"
 logoHtml      = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">PIPES</span>'
 tagline       = "Complex Flow Geometry — Without the Machining."
-description   = "3D Print Pipes — custom pipe fittings, flow manifolds, and duct assemblies via additive manufacturing. Complex internal geometry, non-standard branch angles, and integrated sensor ports without welding or machining."
+description   = "3D Print Pipes is a PrintWire network site about 3D printed pipes and fittings. PrintWire passes quote requests to specialised manufacturers and returns pricing. PrintWire does not manufacture parts itself."
 keywords      = "3D printed pipes, additive manufacturing pipe fittings, custom flow manifolds, 3D printed duct, SLM pipe fittings, nylon pipe, complex flow geometry, non-standard fittings, hydraulic manifold printing"
 logoEmoji     = "🔧"
 contactEmail  = "maxdavisgroup@gmail.com"
